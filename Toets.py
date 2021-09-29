@@ -6,11 +6,7 @@ Gewicht = int(input("Wat is uw gewicht?\n"))
 Haar_kleur = input("Heeft u donker of blond haar?\n")
 
 
-def leeftijd_diploma():
-    if Leeftijd >= 18 and Diploma == 'ja':
-        return True
-    else:
-        False
+leeftijd_diploma = Leeftijd >= 18 and Diploma == 'ja':
 
 def Man():
     Snor = input("Heeft u een Snor?\n")
